@@ -30,11 +30,11 @@ async def main_pratheek():
             for bot in BOT_LIST:
                 try:
                     yyy_pratheek = await app.send_message(bot, "/start")
-                    aaa = yyy_pratheek.id
+                    aaa = yyy_pratheek.message_id
                     await asyncio.sleep(10)
                     zzz_pratheek = app.get_chat_history(bot, limit=1)
                     async for ccc in zzz_pratheek:
-                        bbb = ccc.id
+                        bbb = ccc.message_id
                     if aaa == bbb:
                         xxx_pratheek += f"\n\n🤖  @{bot}\n        └ **Down** ❌"
                         for bot_admin_id in BOT_ADMIN_IDS:
