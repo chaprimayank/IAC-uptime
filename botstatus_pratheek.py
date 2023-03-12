@@ -16,7 +16,7 @@ app = Client(
 )
 
 TIME_ZONE = 'Asia/Kolkata'
-BOT_LIST = 'Lena_MilizeBot, roronoa_zoro_robot, NamiMusic_Bot, NamiMusic2_Bot, NSFW_Protectionbot'
+BOT_LIST = ['Lena_MilizeBot', 'roronoa_zoro_robot', 'NamiMusic_Bot', 'NamiMusic2_Bot', 'NSFW_Protectionbot', 'IACLinkBot', 'IACRename_Bot', 'IACRenameBot']
 CHANNEL_OR_GROUP_ID = '-1001557054615'
 MESSAGE_ID = 35
 BOT_ADMIN_IDS = [837914403, 1189238402]
