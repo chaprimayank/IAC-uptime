@@ -10,9 +10,8 @@ api_hash = '82fd1b4d334c4b813572cb0b1fcc299d'
 session_string = 'BQBw5aCrAUdPgX0-01p0ycErSUP-JVJeSv1O92S_gswcxE0SRYHeTDE-sGJM5RtDSl5_vHWAIwSyfuWAE0Z6oMUMLFPgNmcCt-nID6EsvYmHPf8VFJ0Qv1iSaSckdg-0Y0pW_AK9OMjaX2HPLDt5aVQLBTfrexbWPGjcxR3C2qFCuONXfgG199h7UGFm7XDoloJ4I_6bXrOVvPYkPumyleBL7dH731WVSeJfwjFsVQj-J067E-WYsNE0KsGRoBn2WEd9H4LvD0ftK_EgJU7h-7EXFbV1LcjTU_6QZbJ2dMm69-skUgXBrNRRuSi17kly662yqeH0dH3BqJxIVT9hHxL2AAAAAVfems0A'
 
 app = Client(
-    "iacuptime"
-    api_id=api_id,
-    api_hash=api_hash,
+    "iacuptime",
+    api_id=api_id, api_hash=api_hash,
     session_string=session_string
 )
 
