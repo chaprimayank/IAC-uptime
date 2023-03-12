@@ -5,17 +5,22 @@ import datetime
 import pytz
 import os
 
+api_id = 
+api_hash = ''
+session_string = ''
+
 app = Client(
-    name = "botstatus_pratheek",
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
-    session_string = os.environ["SESSION_STRING"]
+    "iacuptime"
+    api_id=api_id,
+    api_hash=api_hash,
+    session_string=session_string
 )
-TIME_ZONE = os.environ["TIME_ZONE"]
-BOT_LIST = [i.strip() for i in os.environ.get("BOT_LIST").split(' ')]
-CHANNEL_OR_GROUP_ID = int(os.environ["CHANNEL_OR_GROUP_ID"])
-MESSAGE_ID = int(os.environ["MESSAGE_ID"])
-BOT_ADMIN_IDS = [int(i.strip()) for i in os.environ.get("BOT_ADMIN_IDS").split(' ')]
+
+TIME_ZONE = 'Asia/Kolkata'
+BOT_LIST = '@Lena_MilizeBot, @roronoa_zoro_robot'
+CHANNEL_OR_GROUP_ID = '-1001557054615'
+MESSAGE_ID = 35
+BOT_ADMIN_IDS = 837914403, 1189238402
 
 async def main_pratheek():
     async with app:
