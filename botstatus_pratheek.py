@@ -12,7 +12,7 @@ STRING_SESSION = 'BQBw5aCrAUdPgX0-01p0ycErSUP-JVJeSv1O92S_gswcxE0SRYHeTDE-sGJM5R
 app = Client(
     "iacuptime",
     api_id=api_id, api_hash=api_hash,
-    STRING_SESSION=STRING_SESSION
+    session_string=STRING_SESSION
 )
 
 TIME_ZONE = 'Asia/Kolkata'
